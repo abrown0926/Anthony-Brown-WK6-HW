@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">    
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="assets/styles.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="container-fluid" id="header-div">
+        <h1>Weather Report</h1>
+        <p>Welcome to the Weather Report app. We are dedicated to providing the most accurate weather forecasting.</p>
+    </div>
+
+    <!-- Main container -->
+    <div class="container-fluid" id="main-container">
+        <div class="row">
+            <!-- Search for City section -->
+            <div class="col-3" id="search-div">
+                <h4>Search for a City:</h4>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Enter a City" id="txtCity">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button" id="btnSearchCity"><i
+                                class="fa fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="btn-group-vertical" id="cityBtnGroup-div">
+
+                </div>
+            </div>
+            <!-- City Result section -->
+            <div class="col-9" id="result-div">
+        <!-- Current Day div -->
+                <div id="current-div">
+                    <h2 id="cityName"> </h2>
+                    <hr>
+                    <p id="current-temp"></p>
+                    <p id="current-humidity"></p>
+                    <p id="current-windSpeed"></p>
+                    <p id="current-uv"></p>
+                </div>
+                <!-- Five Day Forecast div -->
+                <div id="fiveDay-div">
+                    <h2>5 Day Forecast:</h2>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card" id="day1">
+                                    <div class="card-body">
+                                        <h5 class="card-title" id="dateDay1"></h5>
+                                        <img src="" alt="" id="iconDay1">
+                                        <p class="card-text" id="tempDay1"></p>
+                                        <p class="card-text" id="humDay1"></p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body" id="day2">
+                                        <h5 class="card-title" id="dateDay2"></h5>
+                                        <img src="" alt="" id="iconDay2">
+                                        <p class="card-text" id="tempDay2"></p>
+                                        <p class="card-text" id="humDay2"></p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body" id="day3">
+                                        <h5 class="card-title" id="dateDay3"></h5>
+                                        <img src="" alt="" id="iconDay3">
+                                        <p class="card-text" id="tempDay3"></p>
+                                        <p class="card-text" id="humDay3"></p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body" id="day4">
+                                        <h5 class="card-title" id="dateDay4"></h5>
+                                        <img src="" alt="" id="iconDay4">
+                                        <p class="card-text" id="tempDay4"></p>
+                                        <p class="card-text" id="humDay4"></p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body" id="day5">
+                                        <h5 class="card-title" id="dateDay5"></h5>
+                                        <img src="" alt="" id="iconDay5">
+                                        <p class="card-text" id="tempDay5"></p>
+                                        <p class="card-text" id="humDay5"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

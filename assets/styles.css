@@ -1,0 +1,76 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:#F0FFFF;
+}
+
+#header-div{
+    background-color: #4E78A0;
+    height: 100px;
+}
+
+#header-div h1{
+    text-align: center;
+    color: #FFC469;
+    padding-top: 1%;
+}
+
+#header-div p{
+    text-align: center;
+    color: white;
+}
+
+#search-div{
+    background-color:#F7F7F7;
+     height:auto;
+}
+
+#search-div h4{
+    padding-top: 10px;
+}
+
+#cityBtnGroup-div{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+#result-div{
+
+     height:auto;
+}
+
+#current-div{
+    border: solid 1px black;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: none;
+}
+
+#current-div h2{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#current-div p{
+    padding-left: 20px;
+}
+
+#fiveDay-div{
+    margin-top: 10px;
+    display:none;
+}
+
+#fiveDay-div h2{
+    font-weight: bold;
+}
+
+#fiveDay-div .card{
+    background-color: #1C86EE;
+    color: white;
+    width: 12rem;
+    display:inline-block;
+}
+
+#day1{
+    display: none;
+}
