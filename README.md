@@ -2,9 +2,9 @@
 
 ![Screen Shot 2021-09-08 at 7 10 40 PM](https://user-images.githubusercontent.com/85444308/132602286-b9012288-ed24-4a31-b2a9-9bc3f2003823.png)
 
-https://github.com/abrown0926/Anthony-Brown-WK6-HW/settings/pages
+https://github.com/abrown0926/Anthony-Brown-WK6-HW
 
- https://abrown0926.github.io/Anthony-Brown-WK6-HW/s
+https://abrown0926.github.io/Anthony-Brown-WK6-HW/
 
 
 
